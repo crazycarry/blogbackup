@@ -7,13 +7,13 @@ title: Hexo
 subtitle:
 description:
 keywords:
-author: John Doe
+author: Crazy Carry
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://crazycarry.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -75,7 +75,7 @@ search:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: black-blue
+theme: spfk
 Plugins:
 - hexo-generator-feed
 - hexo-generator-sitemap
@@ -84,4 +84,8 @@ Plugins:
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/crazycarry/crazycarry.github.io.git
+  branch: master
+
+
